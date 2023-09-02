@@ -1,0 +1,10 @@
+{
+  "name": "Devcontainer Sample",
+  "service": "workspace",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+  "shutdownAction": "stopCompose"
+}
