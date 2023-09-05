@@ -1,7 +1,7 @@
 {
   "name": "Devcontainer Sample",
   "service": "workspace",
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceFolder": "/workspace",
 	"dockerComposeFile": [
 		"../docker-compose.yml",
 		"docker-compose.yml"
